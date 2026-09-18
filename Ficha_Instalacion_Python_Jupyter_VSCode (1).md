@@ -205,5 +205,11 @@ pip install jupyterlab notebook ipykernel
 pip install numpy pandas matplotlib openpyxl requests sqlalchemy seaborn plotly
 ```
 
+# RInstalación extensiones en VScode
 
+```bash
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+```
 
