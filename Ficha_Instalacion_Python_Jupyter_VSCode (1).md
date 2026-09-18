@@ -188,3 +188,22 @@ requests
 Git
 Visual Studio Code
 ```
+
+# Repliar la instalación en varios equipos
+
+En cada equipo:
+
+Instalar Python para todos los usuarios.
+Instalar VS Code para todos los usuarios.
+Instalar Git.
+Instalar las extensiones de VS Code.
+Instalar las librerías base.
+
+```bash
+python -m pip install --upgrade pip
+pip install jupyterlab notebook ipykernel
+pip install numpy pandas matplotlib openpyxl requests sqlalchemy seaborn plotly
+```
+
+
+
